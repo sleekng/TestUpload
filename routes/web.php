@@ -33,3 +33,9 @@ Route::middleware([
         return Inertia::render('Dashboard');
     })->name('dashboard');
 });
+
+
+Route::get('testurl', function(){
+
+        return Inertia::render('Matz');
+});
